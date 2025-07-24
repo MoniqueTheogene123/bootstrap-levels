@@ -1,0 +1,66 @@
+/* public/css/my_styles.css */
+
+.click_me_primary_button:hover {
+  background-color: blue;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.click_me_primary_button {
+    width: 10em;
+  height: 5ex;
+  background-color: gold;
+  border: 2px solid firebrick;
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  }
+
+  .click_me_primary_other_button {
+    background-color: blue;
+    color: white;
+  }
+
+  .click_me_primary_other_button:hover {
+    background-color:aqua;
+  }
+
+.click_me_secondary_other_button {
+
+}
+
+.click_me_success_other_button {
+
+}
+
+.click_me_danger_other_button {
+
+}
+
+.click_me_warning_other_button {
+
+}
+
+.click_me_info_other_button {
+
+}
+
+
+
+  /* :root {
+font-size-medium: 1rem;
+--avatar-size: 10rem;
+}
+
+.icon-links {
+color: background
+var(--avatar-size)
+}
+
+
+build out a utility
+.p-1 {
+padding: 1rem;
+} */
